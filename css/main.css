@@ -10,3 +10,13 @@ h5 {
     font-family: Georgia, serif;
     color: #808080;
 }
+
+th {
+    width: 3%;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 75%;
+    }
+}
