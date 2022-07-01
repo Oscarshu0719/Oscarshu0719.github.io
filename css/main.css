@@ -1,18 +1,50 @@
+/* 楷體 */
+/* @import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+    font-family: "cwTeXKai", serif; */
+
+/* 圓體 */
+/* @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    font-family: "cwTeXYen", sans-serif; */
+
+/* 明體 */
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+    /* font-family: "cwTeXMing", serif; */
+
+body {
+    font-family: 'cwTeXMing', sans-serif;
+}
+
+/* Title: Educations, Projects, and etc. */
 h2 {
-    font-family: 'Courier New', monospace;
+    font-family: 'cwTeXMing', 'Courier New', monospace;
 }
 
+/* Subtitle: VSP, and etc. */
 h4 {
-    font-family: 'Trebuchet MS', sans-serif;
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: 'cwTeXMing', 'Trebuchet MS', sans-serif;
 }
 
+/* Degrees, prizes, and etc. */
 h5 {
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
+    font-family: 'cwTeXMing', Georgia, serif;
     color: #808080;
 }
 
+/* Chinese name. */
+#zh-name {
+    font-family: 'cwTeXMing', serif;
+}
+
+/* Table headers. */
 th {
     width: 3%;
+}
+
+/* Table blocks. */
+td {
+    font-family: 'cwTeXMing', sans-serif;
 }
 
 @media (max-width: 768px) {
