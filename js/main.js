@@ -17,7 +17,7 @@ $(document).ready(() => {
             'en': [
                 'Proposed a chord learning framework for multi-track symbolic music generation based on VAE and GAN, and implemented with <a href="https://pytorch.org/" target="_blank">PyTorch</a>.', 
                 'Improved VAE to extract chords more easily.', 
-                'Improved <a href="https://arxiv.org/pdf/1704.00028" target="_blank">WGAN-GP</a> to solve mode collapse problem, vanishing gradient problem, and bad results of some audio tracks.', 
+                'Improved <a href="https://arxiv.org/abs/1704.00028" target="_blank">WGAN-GP</a> to solve mode collapse problem, vanishing gradient problem, and bad results of some audio tracks.', 
                 'Proposed three distinct loss functions, <em>element-wise</em>, <em>discriminator dominant</em>, and <em>hybrid</em>.'
             ], 
             'zh_tw': [
@@ -39,16 +39,16 @@ $(document).ready(() => {
         }, 
         'main': {
             'en': [
-                'Improved <a href="https://arxiv.org/pdf/1907.12279" target="_blank">StarGAN-VC2</a> based on multi-speaker non-parallel corpus.', 
-                'Introduced <a href="https://arxiv.org/pdf/1712.01026" target="_blank">WGAN-div</a> to resolve k-Lipschitz constraint of <a href="https://arxiv.org/pdf/1701.07875" target="_blank">WGAN</a>.', 
-                'Provided new generator network by replacing <a href="https://arxiv.org/pdf/1610.07629" target="_blank">cIN</a> layer with trainable <a href="https://arxiv.org/pdf/1703.06868" target="_blank">AdaIN</a> layer for better performance.', 
-                'Introduced neural vocoder, <a href="https://arxiv.org/pdf/1811.00002" target="_blank">WaveGlow</a>, to generate high quality speech from mel-spectrograms.'
+                'Improved <a href="https://arxiv.org/abs/1907.12279" target="_blank">StarGAN-VC2</a> based on multi-speaker non-parallel corpus.', 
+                'Introduced <a href="https://arxiv.org/abs/1712.01026" target="_blank">WGAN-div</a> to resolve k-Lipschitz constraint of <a href="https://arxiv.org/abs/1701.07875" target="_blank">WGAN</a>.', 
+                'Provided new generator network by replacing <a href="https://arxiv.org/abs/1610.07629" target="_blank">cIN</a> layer with trainable <a href="https://arxiv.org/abs/1703.06868" target="_blank">AdaIN</a> layer for better performance.', 
+                'Introduced neural vocoder, <a href="https://arxiv.org/abs/1811.00002" target="_blank">WaveGlow</a>, to generate high quality speech from mel-spectrograms.'
             ], 
             'zh_tw': [
-                '基於多語者 (multi-speaker) 非平行語料庫 (non-parallel corpus)，改進<a href="https://arxiv.org/pdf/1907.12279" target="_blank">StarGAN-VC2</a>。', 
-                '引入<a href="https://arxiv.org/pdf/1712.01026" target="_blank">WGAN-div</a>解決<a href="https://arxiv.org/pdf/1701.07875" target="_blank">WGAN</a>原有的k-Lipschitz限制。', 
-                '通過將生成網路 (generator) 的<a href="https://arxiv.org/pdf/1610.07629" target="_blank">cIN</a>層替換成<a href="https://arxiv.org/pdf/1703.06868" target="_blank">AdaIN</a>層，提升生成的語音效果。', 
-                '引入神經網路語音合成器 (neural vocoder) <a href="https://arxiv.org/pdf/1811.00002" target="_blank">WaveGlow</a>，通過梅爾時頻譜 (mel-spectrograms) 生成較高音質的語音。'
+                '基於多語者 (multi-speaker) 非平行語料庫 (non-parallel corpus)，改進<a href="https://arxiv.org/abs/1907.12279" target="_blank">StarGAN-VC2</a>。', 
+                '引入<a href="https://arxiv.org/abs/1712.01026" target="_blank">WGAN-div</a>解決<a href="https://arxiv.org/abs/1701.07875" target="_blank">WGAN</a>原有的k-Lipschitz限制。', 
+                '通過將生成網路 (generator) 的<a href="https://arxiv.org/abs/1610.07629" target="_blank">cIN</a>層替換成<a href="https://arxiv.org/abs/1703.06868" target="_blank">AdaIN</a>層，提升生成的語音效果。', 
+                '引入神經網路語音合成器 (neural vocoder) <a href="https://arxiv.org/abs/1811.00002" target="_blank">WaveGlow</a>，通過梅爾時頻譜 (mel-spectrograms) 生成較高音質的語音。'
             ]
         }, 
         'location': {
