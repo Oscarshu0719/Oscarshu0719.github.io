@@ -147,7 +147,7 @@ $(document).ready(() => {
             'zh_tw': '浙江大學'
         }, 
         'degree': {
-            'en': '<em>Bachelor of Computer Science and Technology</em>', 
+            'en': '<em>Bachelor of Engineering in Computer Science and Technology</em>', 
             'zh_tw': '<em>計算機科學與技術學士</em>'
         },
         'remark': {
@@ -167,8 +167,34 @@ $(document).ready(() => {
             'zh_tw': '根據QS 2022年世界大學科系排名，於Computer Science and Information Systems領域位居 #72 名。'
         }
     };
+    const education_2 = {
+        'school': {
+            'en': 'National Yang Ming Chiao Tung University', 
+            'zh_tw': '國立陽明交通大學'
+        }, 
+        'degree': {
+            'en': '<em>Master of Science in Computer Science and Engineering</em>', 
+            'zh_tw': '<em>資訊科學與工程研究所甲組碩士</em>'
+        },
+        'remark': {
+            'en': '', 
+            'zh_tw': ''
+        },
+        'location': {
+            'en': '<em>Hsinchu, Taiwan</em>', 
+            'zh_tw': '<em>新竹, 台灣</em>'
+        }, 
+        'school_hint': {
+            'en': '', 
+            'zh_tw': ''
+        }, 
+        'degree_hint': {
+            'en': '', 
+            'zh_tw': ''
+        }
+    };
     const educations = [
-        education_1
+        education_1, education_2
     ];
 
 
