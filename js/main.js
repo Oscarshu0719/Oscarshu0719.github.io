@@ -35,7 +35,7 @@ $(document).ready(() => {
     const project_2 = {
         'title': {
             'en': '<a href="https://bit.ly/3IzE3BU" target="_blank">Voice Conversion Based on Generative Adversarial Networks</a>', 
-            'zh_tw': '<a href="https://bit.ly/35GzBmc" target="_blank">基於生成對抗網路的語音轉換研究</a>' 
+            'zh_tw': '<a href="https://bit.ly/3IzE3BU" target="_blank">基於生成對抗網路的語音轉換研究</a>' 
         }, 
         'main': {
             'en': [
