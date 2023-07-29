@@ -260,7 +260,7 @@ $(document).ready(() => {
         }, 
         'location': {
             'en': 'Hsinchu, Taiwan', 
-            'zh_tw': '新竹, 台灣'
+            'zh_tw': '新竹, 臺灣'
         }, 
         'school_hint': {
             'en': 'Ranked #217 according to QS World University Rankings 2024.', 
