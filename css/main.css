@@ -37,6 +37,10 @@ h5 {
     font-family: 'cwTeXMing', serif;
 }
 
+.blockquote-footer {
+    font-size: 1em;
+}
+
 /* Table headers. */
 th {
     width: 3%;
