@@ -88,16 +88,16 @@ $(document).ready(() => {
         'main': {
             'en': [
                 'Improved image quality of poorly captured floating images due to hardware tolerance based on CNNs.', 
-                'Ability to train and employ on different devices.', 
+                'Ability to train on each individual device, learn its imaging processes, and refine algorithms accordingly.', 
             ], 
             'zh_tw': [
                 '提出一個基於卷積神經網路 (CNN) 的浮空影像品質補償演算法，用於解決硬體缺陷問題，提升浮空影像的品質。', 
-                '可以在不同的硬體上訓練和部署。', 
+                '在不同裝置上訓練，學習出各自裝置的成像過程，以及修正演算法。', 
             ]
         }, 
         'period': {
-            'en': '06 2023 - 12 2023 (Expected)',
-            'zh_tw': '06 2023 - 12 2023 (Expected)',
+            'en': '06 2023 - 12 2023',
+            'zh_tw': '06 2023 - 12 2023',
         }, 
         'location': {
             'en': 'Hsinchu, Taiwan', 
