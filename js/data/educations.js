@@ -31,8 +31,8 @@ const education_2 = {
         'zh_tw': '資訊科學與工程研究所甲組碩士'
     },
     'remark': {
-        'en': 'Overall GPA: 4.15/4.30', 
-        'zh_tw': '總 GPA: 4.15/4.30'
+        'en': 'Overall GPA: 4.19/4.30', 
+        'zh_tw': '總 GPA: 4.19/4.30'
     }, 
     'period': {
         'en': '09 2022 - 02 2025',
