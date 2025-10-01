@@ -1,7 +1,7 @@
 const experience_1 = {
     'title': {
-        'en': 'System Software Engineer', 
-        'zh_tw': '系統軟體工程師'
+        'en': 'Camera ISP Engineer', 
+        'zh_tw': '相機 ISP 工程師'
     }, 
     'subtitle': {
         'en': 'AI camera algorithm development @ Realtek Semiconductor Corp.', 
