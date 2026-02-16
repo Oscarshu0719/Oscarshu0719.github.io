@@ -87,11 +87,27 @@ $(document).ready(() => {
 
             const main = experience['main'][lang];
 
-            $.each(main, (idx, text) => {
+            $.each(main, (idx, item) => {
+                const title = item['title'];
+                const descriptions = item['descriptions'];
+                
                 const tr = $('<tr>');
+                const th = $('<th>', {'scope': 'row', 'style': 'font-size: 1.25rem'}).html(idx + 1);
 
-                const th = $('<th>', {'scope': 'row'}).html(idx + 1);
-                const td = $('<td>').html(text);
+                const td = $('<td>');
+                td.append($('<div>', {'style': 'font-size: 1.25rem'}).html(title));
+
+                const descTable = $('<table>', {'class': 'table table-borderless mb-0 experience-desc-table'});
+                const descTbody = $('<tbody>');
+                descTable.append(descTbody);
+                descriptions.forEach((desc, dIdx) => {
+                    const descTr = $('<tr>', {'class': 'experience-desc'});
+                    const descTh = $('<th>', {'scope': 'row'}).html((dIdx + 1));
+                    const descTd = $('<td>').html(desc);
+                    descTr.append(descTh).append(descTd);
+                    descTbody.append(descTr);
+                });
+                td.append(descTable);
 
                 tr.append(th);
                 tr.append(td);
