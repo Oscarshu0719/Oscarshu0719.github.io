@@ -1,11 +1,11 @@
 const experience_1 = {
     'title': {
-        'en': 'Camera ISP Firmware Engineer', 
-        'zh_tw': '相機 ISP 韌體工程師'
+        'en': 'Camera ISP Firmware Engineer, Realtek Semiconductor Corp.', 
+        'zh_tw': '相機 ISP 韌體工程師, 瑞昱半導體股份有限公司'
     }, 
     'subtitle': {
-        'en': 'AI camera algorithm development @ Realtek Semiconductor Corp.', 
-        'zh_tw': 'AI 相機演算法開發 @ 瑞昱半導體股份有限公司'
+        'en': 'AI camera algorithm development', 
+        'zh_tw': 'AI 相機演算法開發'
     }, 
     'main': {
         'en': [ 
